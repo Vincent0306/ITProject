@@ -1,0 +1,684 @@
+{
+    "_D": "urn:oasis:names:specification:ubl:schema:xsd:Invoice-2",
+    "_S": "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
+    "_B": "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+    "Invoice": [{
+        "CustomizationID": [{
+            "IdentifierContent": "urn:cen.eu:en16931:2017#conformant#urn:fdc:peppol.eu:2017:poacc:billing:international:aunz:3.0"
+        }],
+        "ProfileID": [{
+            "IdentifierContent": "urn:fdc:peppol.eu:2017:poacc:billing:01:1.0"
+        }],
+        "ID": [{
+            "IdentifierContent": "Invoice01"
+        }],
+        "IssueDate": [{
+            "DateContent": "2019-07-29"
+        }],
+        "DueDate": [{
+            "DateContent": "2019-08-30"
+        }],
+        "InvoiceTypeCode": [{
+            "IdentifierContent": "380"
+        }],
+        "Note": [{
+            "TextContent": "Tax invoice"
+        }],
+        "DocumentCurrencyCode": [{
+            "IdentifierContent": "AUD"
+        }],
+        "AccountingCost": [{
+            "TextContent": "4025:123:4343"
+        }],
+        "BuyerReference": [{
+            "TextContent": "0150abc"
+        }],
+        "InvoicePeriod": [{
+            "StartDate": [{
+                "DateContent": "2019-06-01"
+            }],
+            "EndDate": [{
+                "DateContent": "2019-07-30"
+            }]
+        }],
+        "OrderReference": [{
+            "ID": [{
+                "IdentifierContent": "PurchaseOrderReference"
+            }],
+            "SalesOrderID": [{
+                "IdentifierContent": "12345678"
+            }]
+        }],
+        "BillingReference": [{
+            "InvoiceDocumentReference": [{
+                "ID": [{
+                    "IdentifierContent": "PrecedingInvoiceReference"
+                }],
+                "IssueDate": [{
+                    "DateContent": "2019-05-30"
+                }]
+            }]
+        }],
+        "DespatchDocumentReference": [{
+            "ID": [{
+                "IdentifierContent": "DDR-REF"
+            }]
+        }],
+        "ReceiptDocumentReference": [{
+            "ID": [{
+                "IdentifierContent": "RD-REF"
+            }]
+        }],
+        "OriginatorDocumentReference": [{
+            "ID": [{
+                "IdentifierContent": "OD-REF"
+            }]
+        }],
+        "ContractDocumentReference": [{
+            "ID": [{
+                "IdentifierContent": "CD-REF"
+            }]
+        }],
+        "AccountingSupplierParty": [{
+            "Party": [{
+                "EndpointID": [{
+                    "IdentifierContent": "47555222000", "schemeID": "0151"
+                }],
+                "PartyIdentification": [{
+                    "ID": [{
+                        "IdentifierContent": "47555222000"
+                    }]
+                }],
+                "PartyName": [{
+                    "Name": [{
+                        "TextContent": "Supplier Trading Name Ltd"
+                    }]
+                }],
+                "PostalAddress": [{
+                    "StreetName": [{
+                        "TextContent": "Main street 1"
+                    }],
+                    "AdditionalStreetName": [{
+                        "TextContent": "Postbox 123"
+                    }],
+                    "CityName": [{
+                        "TextContent": "Harrison"
+                    }],
+                    "PostalZone": [{
+                        "TextContent": "2912"
+                    }],
+                    "Country": [{
+                        "IdentificationCode": [{
+                            "IdentifierContent": "AU"
+                        }]
+                    }]
+                }],
+                "PartyTaxScheme": [{
+                    "CompanyID": [{
+                        "IdentifierContent": "47555222000"
+                    }],
+                    "TaxScheme": [{
+                        "ID": [{
+                            "IdentifierContent": "GST"
+                        }]
+                    }]
+                }],
+                "PartyLegalEntity": [{
+                    "RegistrationName": [{
+                        "TextContent": "Supplier Official Name Ltd"
+                    }],
+                    "CompanyID": [{
+                        "IdentifierContent": "47555222000", "schemeID": "0151"
+                    }],
+                    "CompanyLegalForm": [{
+                        "TextContent": "Partnership"
+                    }]
+                }],
+                "Contact": [{
+                    "Name": [{
+                        "TextContent": "Ronald MacDonald"
+                    }],
+                    "Telephone": [{
+                        "TextContent": "Mobile 0430123456"
+                    }],
+                    "ElectronicMail": [{
+                        "TextContent": "ronald.macdonald@qualitygoods.com.au"
+                    }]
+                }]
+            }]
+        }],
+        "AccountingCustomerParty": [{
+            "Party": [{
+                "EndpointID": [{
+                    "IdentifierContent": "91888222000", "schemeID": "0151"
+                }],
+                "PartyIdentification": [{
+                    "ID": [{
+                        "IdentifierContent": "91888222000", "schemeID": "0151"
+                    }]
+                }],
+                "PartyName": [{
+                    "Name": [{
+                        "TextContent": "Trotters Trading Co Ltd"
+                    }]
+                }],
+                "PostalAddress": [{
+                    "StreetName": [{
+                        "TextContent": "100 Queen Street"
+                    }],
+                    "AdditionalStreetName": [{
+                        "TextContent": "Po box 878"
+                    }],
+                    "CityName": [{
+                        "TextContent": "Sydney"
+                    }],
+                    "PostalZone": [{
+                        "TextContent": "2000"
+                    }],
+                    "Country": [{
+                        "IdentificationCode": [{
+                            "IdentifierContent": "AU"
+                        }]
+                    }]
+                }],
+                "PartyTaxScheme": [{
+                    "CompanyID": [{
+                        "IdentifierContent": "91888222000"
+                    }],
+                    "TaxScheme": [{
+                        "ID": [{
+                            "IdentifierContent": "GST"
+                        }]
+                    }]
+                }],
+                "PartyLegalEntity": [{
+                    "RegistrationName": [{
+                        "TextContent": "Buyer Official Name"
+                    }],
+                    "CompanyID": [{
+                        "IdentifierContent": "91888222000", "schemeID": "0151"
+                    }]
+                }],
+                "Contact": [{
+                    "Name": [{
+                        "TextContent": "Lisa Johnson"
+                    }],
+                    "Telephone": [{
+                        "TextContent": "0261234567"
+                    }],
+                    "ElectronicMail": [{
+                        "TextContent": "lj@buyer.com.au"
+                    }]
+                }]
+            }]
+        }],
+        "PayeeParty": [{
+            "PartyIdentification": [{
+                "ID": [{
+                    "IdentifierContent": "91888222000"
+                }]
+            }],
+            "PartyName": [{
+                "Name": [{
+                    "TextContent": "Mr Anderson"
+                }]
+            }],
+            "PartyLegalEntity": [{
+                "CompanyID": [{
+                    "IdentifierContent": "91888222000", "schemeID": "0151"
+                }]
+            }]
+        }],
+        "TaxRepresentativeParty": [{
+            "PartyName": [{
+                "Name": [{
+                    "TextContent": "Mr Wilson"
+                }]
+            }],
+            "PostalAddress": [{
+                "StreetName": [{
+                    "TextContent": "16 Stout Street"
+                }],
+                "AdditionalStreetName": [{
+                    "TextContent": "Po box 878"
+                }],
+                "CityName": [{
+                    "TextContent": "Sydney"
+                }],
+                "PostalZone": [{
+                    "TextContent": "2000"
+                }],
+                "CountrySubentity": [{
+                    "TextContent": "NSW"
+                }],
+                "AddressLine": [{
+                    "Line": [{
+                    "TextContent": "Unit 1" }]
+                }],
+                "Country": [{
+                    "IdentificationCode": [{
+                        "IdentifierContent": "AU"
+                    }]
+                }]
+            }],
+            "PartyTaxScheme": [{
+                "CompanyID": [{
+                    "IdentifierContent": "91888222000"
+                }],
+                "TaxScheme": [{
+                    "ID": [{
+                        "IdentifierContent": "GST"
+                    }]
+                }]
+            }]
+        }],
+        "Delivery": [{
+            "ActualDeliveryDate": [{
+                "DateContent": "2019-07-01"
+            }],
+            "DeliveryLocation": [{
+                "ID": [{
+                    "IdentifierContent": "91888222000", "schemeID": "0151"
+                }],
+                "Address": [{
+                    "StreetName": [{
+                        "TextContent": "Delivery street 2"
+                    }],
+                    "AdditionalStreetName": [{
+                        "TextContent": "Building 56"
+                    }],
+                    "CityName": [{
+                        "TextContent": "Sydney"
+                    }],
+                    "PostalZone": [{
+                        "TextContent": "2000"
+                    }],
+                    "CountrySubentity": [{
+                        "TextContent": "NSW"
+                    }],
+                    "AddressLine": [{
+                        "Line": [{
+                        "TextContent": "Unit 1"}]
+                    }],
+                    "Country": [{
+                        "IdentificationCode": [{
+                            "IdentifierContent": "AU"
+                        }]
+                    }]
+                }]
+            }],
+            "DeliveryParty": [{
+                "PartyName": [{
+                    "Name": [{
+                        "TextContent": "Delivery party Name"
+                    }]
+                }]
+            }]
+        }],
+        "PaymentMeans": [{
+            "PaymentMeansCode": [{
+                "IdentifierContent": "30", "name":"Credit transfer"
+            }],
+            "PaymentID": [{
+                "TextContent": "PaymentReferenceText"
+            }],
+            "PayeeFinancialAccount": [{
+                "ID": [{
+                    "IdentifierContent": "AccountNumber"
+                }],
+                "Name": [{
+                    "TextContent": "AccountName"
+                }],
+                "FinancialInstitutionBranch": [{
+                    "ID": [{
+                        "IdentifierContent": "BSB Number"
+                    }]
+                }]
+            }]
+        }],
+        "PaymentTerms": [{
+            "Note": [{
+                "TextContent": "Payment within 30 days"
+            }]
+        }],
+        "AllowanceCharge": [{
+            "ChargeIndicator": [{
+                "IdentifierContent": "true"
+            }],
+            "AllowanceChargeReasonCode": [{
+                "IdentifierContent": "SAA"
+            }],
+            "AllowanceChargeReason": [{
+                "TextContent": "Shipping and Handling"
+            }],
+            "MultiplierFactorNumeric": [{
+                "NumericContent": "0"
+            }],
+            "Amount": [{
+                "AmountContent": "0", "currencyID": "AUD"
+            }],
+            "BaseAmount": [{
+                "AmountContent": "0", "currencyID": "AUD"
+            }],
+            "TaxCategory": [{
+                "ID": [{
+                    "IdentifierContent": "S"
+                }],
+                "Percent": [{
+                    "NumericContent": "10"
+                }],
+                "TaxScheme": [{
+                    "ID": [{
+                        "IdentifierContent": "GST"
+                    }]
+                }]
+            }]
+        }],
+        "TaxTotal": [{
+            "TaxAmount": [{
+                "AmountContent": "148.74", "currencyID": "AUD"
+            }],
+            "TaxSubtotal": [{
+                "TaxableAmount": [{
+                    "AmountContent": "1487.40", "currencyID": "AUD"
+                }],
+                "TaxAmount": [{
+                    "AmountContent": "148.74", "currencyID": "AUD"
+                }],
+                "TaxCategory": [{
+                    "ID": [{
+                        "IdentifierContent": "S"
+                    }],
+                    "Percent": [{
+                        "NumericContent": "10"
+                    }],
+                    "TaxScheme": [{
+                        "ID": [{
+                            "IdentifierContent": "GST"
+                        }]
+                    }]
+                }]
+            }]
+        }],
+        "LegalMonetaryTotal": [{
+            "LineExtensionAmount": [{
+                "AmountContent": "1487.40", "currencyID": "AUD"
+            }],
+            "TaxExclusiveAmount": [{
+                "AmountContent": "1487.40", "currencyID": "AUD"
+            }],
+            "TaxInclusiveAmount": [{
+                "AmountContent": "1636.14", "currencyID": "AUD"
+            }],
+            "ChargeTotalAmount": [{
+                "AmountContent": "0.00", "currencyID": "AUD"
+            }],
+            "PrepaidAmount": [{
+                "AmountContent": "0.00", "currencyID": "AUD"
+            }],
+            "PayableAmount": [{
+                "AmountContent": "1636.14", "currencyID": "AUD"
+            }]
+        }],
+        "InvoiceLine": [
+            {
+                "ID": [{
+                    "IdentifierContent": "1"
+                }],
+                "Note": [{
+                    "TextContent": "Texts Giving More Info about the Invoice Line"
+                }],
+                "InvoicedQuantity": [{
+                    "NumericContent": "10", "unitCode": "E99"
+                }],
+                "LineExtensionAmount": [{
+                    "AmountContent": "299.90", "currencyID": "AUD"
+                }],
+                "AccountingCost": [{
+                    "TextContent": "Consulting Fees"
+                }],
+                "InvoicePeriod": [{
+                    "StartDate": [{
+                        "DateContent": "2019-06-01"
+                    }],
+                    "EndDate": [{
+                        "DateContent": "2019-07-30"
+                    }]
+                }],
+                "OrderLineReference": [{
+                    "LineID": [{
+                        "IdentifierContent": "123"
+                    }]
+                }],
+                "DocumentReference": [{
+                    "ID": [{
+                        "IdentifierContent": "9000074677", "schemeID":"HWB"
+                    }],
+                    "DocumentTypeCode": [{
+                        "IdentifierContent": "130"
+                    }]
+                }],
+                "Item": [{
+                    "Description": [{
+                        "TextContent": "Widgets True and Fair"
+                    }],
+                    "Name": [{
+                        "TextContent": "True-Widgets"
+                    }],
+                    "BuyersItemIdentification": [{
+                        "ID": [{
+                            "IdentifierContent": "W659590"
+                        }]
+                    }],
+                    "SellersItemIdentification": [{
+                        "ID": [{
+                            "IdentifierContent": "WG546767"
+                        }]
+                    }],
+                    "StandardItemIdentification": [{
+                        "ID": [{
+                            "IdentifierContent": "WG546767", "schemeID": "0002"
+                        }]
+                    }],
+                    "OriginCountry": [{
+                        "IdentificationCode": [{
+                            "IdentifierContent": "AU"
+                        }]
+                    }],
+                    "CommodityClassification": [{
+                        "ItemClassificationCode": [{
+                            "IdentifierContent": "09348023", "listID":"SRV"
+                        }]
+                    }],
+                    "ClassifiedTaxCategory": [{
+                        "ID": [{
+                            "IdentifierContent": "S"
+                        }],
+                        "Percent": [{
+                            "NumericContent": "10"
+                        }],
+                        "TaxScheme": [{
+                            "ID": [{
+                                "IdentifierContent": "GST"
+                            }]
+                        }]
+                    }]
+                }],
+                "Price": [{
+                    "PriceAmount": [{
+                        "AmountContent": "29.99", "currencyID":"AUD"
+                    }],
+                    "AllowanceCharge": [{
+                        "ChargeIndicator": [{
+                            "IdentifierContent": "false"
+                        }],
+                        "Amount": [{
+                            "AmountContent": "0.00", "currencyID":"AUD"
+                        }],
+                        "BaseAmount": [{
+                            "AmountContent": "29.99", "currencyID":"AUD"
+                        }]
+                    }]
+                }]
+            },
+            {
+                "ID": [{
+                    "IdentifierContent": "2"
+                }],
+                "InvoicedQuantity": [{
+                    "NumericContent": "2", "unitCode": "DAY"
+                }],
+                "LineExtensionAmount": [{
+                    "AmountContent": "1000", "currencyID":"AUD"
+                }],
+                "OrderLineReference": [{
+                    "LineID": [{
+                        "IdentifierContent": "123"
+                    }]
+                }],
+                "Item": [{
+                    "Description": [{
+                        "TextContent": "Description 2"
+                    }],
+                    "Name": [{
+                        "TextContent": "item name 2"
+                    }],
+                    "StandardItemIdentification": [{
+                        "ID": [{
+                            "IdentifierContent": "21382183120983", "schemeID": "0151"
+                        }]
+                    }],
+                    "OriginCountry": [{
+                        "IdentificationCode": [{
+                            "IdentifierContent": "NO"
+                        }]
+                    }],
+                    "CommodityClassification": [{
+                        "ItemClassificationCode": [{
+                            "IdentifierContent": "09348023", "listID": "SRV"
+                        }]
+                    }],
+                    "ClassifiedTaxCategory": [{
+                        "ID": [{
+                            "IdentifierContent": "S"
+                        }],
+                        "Percent": [{
+                            "NumericContent": "10"
+                        }],
+                        "TaxScheme": [{
+                            "ID": [{
+                                "IdentifierContent": "GST"
+                            }]
+                        }]
+                    }]
+                }],
+                "Price": [{
+                    "PriceAmount": [{
+                        "AmountContent": "500", "currencyID":"AUD"
+                    }]
+                }]
+            },
+            {
+                "ID": [{
+                    "IdentifierContent": "3"
+                }],
+                "Note": [{
+                    "TextContent": "Invoice Line Description"
+                }],
+                "InvoicedQuantity": [{
+                    "NumericContent": "25", "unitCode": "M66"
+                }],
+                "LineExtensionAmount": [{
+                    "AmountContent": "187.50", "currencyID":"AUD"
+                }],
+                "AccountingCost": [{
+                    "TextContent": "Consulting Fees"
+                }],
+                "InvoicePeriod": [{
+                    "StartDate": [{
+                        "DateContent": "2019-06-01"
+                    }],
+                    "EndDate": [{
+                        "DateContent": "2019-07-30"
+                    }]
+                }],
+                "OrderLineReference": [{
+                    "LineID": [{
+                        "IdentifierContent": "123"
+                    }]
+                }],
+                "DocumentReference": [{
+                    "ID": [{
+                        "IdentifierContent": "9000074677", "schemeID":"HWB"
+                    }],
+                    "DocumentTypeCode": [{
+                        "IdentifierContent": "130"
+                    }]
+                }],
+                "Item": [{
+                    "Description": [{
+                        "TextContent": "Widgets True and Fair"
+                    }],
+                    "Name": [{
+                        "TextContent": "True-Widgets"
+                    }],
+                    "BuyersItemIdentification": [{
+                        "ID": [{
+                            "IdentifierContent": "W659590"
+                        }]
+                    }],
+                    "SellersItemIdentification": [{
+                        "ID": [{
+                            "IdentifierContent": "WG546767"
+                        }]
+                    }],
+                    "StandardItemIdentification": [{
+                        "ID": [{
+                            "IdentifierContent": "WG546767", "schemeID": "0151"
+                        }]
+                    }],
+                    "OriginCountry": [{
+                        "IdentificationCode": [{
+                            "IdentifierContent": "AU"
+                        }]
+                    }],
+                    "CommodityClassification": [{
+                        "ItemClassificationCode": [{
+                            "IdentifierContent": "09348023", "listID":"SRV"
+                        }]
+                    }],
+                    "ClassifiedTaxCategory": [{
+                        "ID": [{
+                            "IdentifierContent": "S"
+                        }],
+                        "Percent": [{
+                            "NumericContent": "10"
+                        }],
+                        "TaxScheme": [{
+                            "ID": [{
+                                "IdentifierContent": "GST"
+                            }]
+                        }]
+                    }]
+                }],
+                "Price": [{
+                    "PriceAmount": [{
+                        "AmountContent": "7.50", "currencyID":"AUD"
+                    }],
+                    "AllowanceCharge": [{
+                        "ChargeIndicator": [{
+                            "IdentifierContent": "false"
+                        }],
+                        "Amount": [{
+                            "AmountContent": "0.00", "currencyID":"AUD"
+                        }],
+                        "BaseAmount": [{
+                            "AmountContent": "7.50", "currencyID":"AUD"
+                            }]
+                        }]
+                    }]
+                }
+            ]
+        }
+    ]
+}

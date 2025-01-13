@@ -1,0 +1,11 @@
+Django==5.0.6
+sqlparse
+asgiref
+django-webpack-loader
+python-decouple==3.8
+mysqlclient
+djangorestframework
+drf-yasg
+django-cors-headers
+requests
+reportlab

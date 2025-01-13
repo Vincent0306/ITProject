@@ -1,0 +1,27 @@
+{
+  "status": "done",
+  "assets": {
+    "main-061dcae3a12e5d3bcd38.js": {
+      "name": "main-061dcae3a12e5d3bcd38.js",
+      "path": "C:\\COMP9900\\project\\capstone-project-9900h16acrazythursday\\Backend\\Django\\E-invoice Process System\\frontend\\dist\\main-061dcae3a12e5d3bcd38.js",
+      "publicPath": "/static/frontend/main-061dcae3a12e5d3bcd38.js"
+    },
+    "node_modules_web-vitals_dist_web-vitals_js-061dcae3a12e5d3bcd38.js": {
+      "name": "node_modules_web-vitals_dist_web-vitals_js-061dcae3a12e5d3bcd38.js",
+      "path": "C:\\COMP9900\\project\\capstone-project-9900h16acrazythursday\\Backend\\Django\\E-invoice Process System\\frontend\\dist\\node_modules_web-vitals_dist_web-vitals_js-061dcae3a12e5d3bcd38.js",
+      "publicPath": "/static/frontend/node_modules_web-vitals_dist_web-vitals_js-061dcae3a12e5d3bcd38.js"
+    },
+    "static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg": {
+      "name": "static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+      "path": "C:\\COMP9900\\project\\capstone-project-9900h16acrazythursday\\Backend\\Django\\E-invoice Process System\\frontend\\dist\\static\\media\\logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+      "publicPath": "/static/frontend/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+      "sourceFilename": "src/logo.svg"
+    }
+  },
+  "chunks": {
+    "main": [
+      "main-061dcae3a12e5d3bcd38.js"
+    ]
+  },
+  "publicPath": "/static/frontend/"
+}

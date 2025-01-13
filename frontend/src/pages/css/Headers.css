@@ -1,0 +1,101 @@
+.app-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 64px;
+  width: 100px;
+  background-color: rgb(250, 236, 255);
+  transition: width 0.5s ease;
+  overflow: hidden;
+  z-index: 1000;
+  box-shadow: 0 5px 10px rgba(59, 59, 59, 0);
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 10px;
+}
+
+.app-bar.expanded {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  width: 100%;
+  clip-path: none;
+}
+
+.logo {
+  cursor: pointer;
+  width: 100px;
+  transition: all 0.3s ease;
+}
+
+.logo:hover {
+  background-color: transparent;
+}
+
+.app-bar .MuiToolbar-root {
+  display: flex;
+  align-items: center;
+  height: 64px;
+  width: 100%;
+}
+
+.center-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  height: 100%;
+}
+
+.custom-button {
+  height: 100%;
+  background-color: transparent;
+  margin: 0;
+  border: 0;
+  padding: 0 10px;
+  clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+  transition: background-color 0.3s ease;
+  position: relative;
+  font-family: 'Helvetica';
+  font-weight: 600;
+}
+
+.custom-button::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 100%;
+  background: linear-gradient(to bottom left, transparent 45%, black 45%, black 55%, transparent 55%);
+  transform: scale(1.2);
+}
+
+.custom-button:last-child::after {
+  display: none;
+}
+
+.custom-button:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.divider {
+  width: 2px;
+  height: 50%;
+  background-color: rgb(161, 161, 161);
+  transform: skewX(-10deg);
+}
+
+.custom-button.hover {
+  background: linear-gradient(to bottom, transparent, #7bacc0, transparent);
+}
+
+@media (max-width: 480px) {
+  .custom-button {
+    width: 40px;
+    font-size: 6px;
+    padding: 0;
+  }
+
+}
